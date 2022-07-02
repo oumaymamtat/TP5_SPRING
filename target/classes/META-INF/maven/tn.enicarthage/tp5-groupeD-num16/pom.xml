@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>tn.enicarthage</groupId>
+  <artifactId>tp5-groupeD-num16</artifactId>
+  <version>0.0.1-SNAPSHOT</version>  
+  <name>tp5-maven-web</name>
+  <description>maven log4j  junit web</description>
+  
+  <build>
+  <pluginManagement>
+    <plugins>
+  <plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<version>3.0.0</version>
+<configuration>
+
+<warSourceDirectory>src/main/webapp</warSourceDirectory>
+<webXml>src/main/webapp/WEB-INF/web.xml</webXml>
+
+<warName>GreetingSW</warName>
+</configuration>
+</plugin>
+  </plugins>
+  </pluginManagement>
+  </build>
+  
+  
+
+</project>
